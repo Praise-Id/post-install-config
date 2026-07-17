@@ -115,13 +115,12 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 
 - From the Admin Panel, click "Settings" in the top navigation.
 - Click "Users" in the sub-menu.
-- Locate the setting labelled "Registration" or "Account Registration".
-- Find the checkbox for "Unregistered users can create tickets" and uncheck it.
+- Find the checkbox for "Require registration and login to create tickets" and check it.
 - Ensure the setting reflects "Registration Required" — meaning users must register and log in before creating a ticket.
 - Scroll down and click "Save Changes".
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="777" height="792" alt="image" src="https://github.com/user-attachments/assets/3d73fe56-5312-4dd2-a675-3aa9ad403416" />
 </p>
 
 <br />
