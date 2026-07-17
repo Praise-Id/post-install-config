@@ -34,10 +34,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 Access the Login Pages.
 </h4>
 
-- Open a web browser
-- To log in as an Admin or Agent, go to: http://localhost/osTicket/scp/login.php
+- Open a web browser.
+- To log in as an Admin or Agent, go to: http://localhost/osTicket/scp/login.php.
 - Enter your admin username and password (created during setup), then click Login.
-- To view the End User (customer-facing) portal, open a new tab and go to: http://localhost/osTicket
+- To view the End User (customer-facing) portal, open a new tab and go to: http://localhost/osTicket.
   
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -66,7 +66,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 </p>
 
 - From the Admin Panel, look at the top navigation bar and click "Agents".
-- In the sub-menu that appears, click "Roles", click the "Add New Role" button 
+- In the sub-menu that appears, click "Roles", click the "Add New Role" button.
 - In the "Role Name" field, type Supreme Admin (you can name this whatever you want).
 - Review the permission checkboxes on this page (organized into tabs like "Tickets," "Knowledgebase," "Miscellaneous"). For a Supreme Admin role, check all available permissions across each tab.
 - Click "Add Role" or "Save Changes" at the bottom of the page to save.
@@ -82,7 +82,11 @@ Roles group together permissions that can be assigned to agents (e.g., what they
   Departments control ticket visibility and organize agents into functional groups (e.g., Help Desk, SysAdmins, Networking).
 </p>
 
-- 
+- From the Admin Panel, click "Agents" in the top navigation.
+- Click "Departments" in the sub-menu, click "Add New Department".
+- In the "Department Name" field, name the department whatever you want).
+- Leave or adjust the "Department Type" (Public or Private) and other default settings as needed.
+- Click "Add Department" to save.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -90,27 +94,104 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 
 <br />
 
-<h4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</h4>
+<h4>Configure Teams</h4>
+<p>
+ Teams let you pull agents from different departments into a single working group.
+</p>
+
+- From the Admin Panel, click "Agents" in the top navigation.
+- Click "Teams" in the sub-menu.
+- Click "Add New Team".
+- Scroll down to the "Team Members" section.
+- Use the member selection box to search for and add agents, regardless of which department they belong to.
+- Click "Add Team" to save.
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
 
-<h4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</h4>
+<h4>Require Registration to Create Tickets</h4>
+<p>
+  By default, osTicket may allow anyone (even unregistered users) to submit tickets. To require registration:
+</p>
+
+- From the Admin Panel, click "Settings" in the top navigation.
+- Click "Users" in the sub-menu.
+- Locate the setting labeled "Registration" or "Account Registration".
+- Find the checkbox for "Unregistered users can create tickets" and uncheck it.
+- Ensure the setting reflects "Registration Required" — meaning users must register and log in before creating a ticket.
+- Scroll down and click "Save Changes".
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
 
-<h4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</h4>
+<h4> Configure Agents (Workers)</h4>
+<p>
+  Agents are the staff members who will respond to and resolve tickets.
+</p>
+
+- From the Admin Panel, click "Agents" in the top navigation.
+- Click "Agents" in the sub-menu (this shows the list of existing agents), click "Add New Agent".
+- Fill in the required fields (username, first name, last name, email, password).
+- In the "Department" dropdown, select a department of your choice.
+- Configure any additional fields as needed.
+- Click "Add Agent" to save.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4>Configure Users (Customers)</h4>
+<p>
+  Users are the customers who submit support tickets.
+</p>
+
+- Log into the Agent Panel (if you're in the Admin Panel, use the link in the top navigation to switch back).
+- Click "Users" in the top navigation, click "Add New User".
+- Fill in the required fields (name, email, phone, etc.).
+- Click "Add User" to save.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4> Configure SLA (Service Level Agreement) Plans</h4>
+<p>
+  SLAs define response and resolution time expectations for tickets.
+</p>
+
+- From the Admin Panel, click "Manage" in the top navigation.
+- Click "SLA Plans" in the sub-menu, click "Add New SLA Plan."
+- Fill in the required fields.
+- you may need to create your schedule first under Manage -> Schedules if it doesn't already exist
+- Click "Add SLA Plan" to save.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4>Configure Help Topics</h4>
+<p>
+  Help Topics appear as selectable options when users create a new ticket, helping route tickets appropriately.
+</p>
+
+- From the Admin Panel, click "Manage" in the top navigation.
+- Click "Help Topics" in the top navigation, click "Add New Help Topic".
+- Fill in the required fields.
+- Configure the associated department, SLA plan, and priority as appropriate.
+- Click "Add Topic" to save.
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
