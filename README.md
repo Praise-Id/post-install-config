@@ -29,26 +29,90 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
+
+<h4>
+Access the Login Pages.
+</h4>
+
+- Open a web browser
+- To log in as an Admin or Agent, go to: http://localhost/osTicket/scp/login.php
+- Enter your admin username and password (created during setup), then click Login.
+- To view the End User (customer-facing) portal, open a new tab and go to: http://localhost/osTicket
+  
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
+
+<h4>
+Understand Agent Panel vs. Admin Panel.
+</h4>
+
+- After logging in at scp/login.php, you'll land in the Agent Panel — this is where agents view, respond to, and manage tickets.
+- To access the Admin Panel, look for an "Admin Panel" link, usually found in the top-right navigation bar next to your username.
+- Click "Admin Panel" to switch over. This is where you'll configure system-wide settings such as roles, departments, teams, and SLAs.
+- You can switch back to the Agent Panel at any time using the corresponding link in the top navigation.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
 <br />
+
+<h4>Configure Roles</h4>
+<p>
+Roles group together permissions that can be assigned to agents (e.g., what they're allowed to view or do).
+</p>
+
+- From the Admin Panel, look at the top navigation bar and click "Agents".
+- In the sub-menu that appears, click "Roles", click the "Add New Role" button 
+- In the "Role Name" field, type Supreme Admin (you can name this whatever you want).
+- Review the permission checkboxes on this page (organized into tabs like "Tickets," "Knowledgebase," "Miscellaneous"). For a Supreme Admin role, check all available permissions across each tab.
+- Click "Add Role" or "Save Changes" at the bottom of the page to save.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<br />
+
+<h4>Configure Departments</h4>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Departments control ticket visibility and organize agents into functional groups (e.g., Help Desk, SysAdmins, Networking).
 </p>
+
+- 
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
