@@ -80,7 +80,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 
 - From the Admin Panel, click "Agents" in the top navigation.
 - Click "Departments" in the sub-menu, click "Add New Department".
-- In the "Department Name" field, name the department whatever you want).
+- In the "Department Name" field, name the department whatever you want.
 - Leave or adjust the "Department Type" (Public or Private) and other default settings as needed.
 - Click "Add Department" to save.
 
@@ -103,7 +103,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 - Click "Add Team" to save.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1192" height="732" alt="image" src="https://github.com/user-attachments/assets/5b3e1f91-23dc-4f3a-8669-beb57c9d2d89" />
 </p>
 
 <br />
@@ -115,7 +115,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 
 - From the Admin Panel, click "Settings" in the top navigation.
 - Click "Users" in the sub-menu.
-- Locate the setting labeled "Registration" or "Account Registration".
+- Locate the setting labelled "Registration" or "Account Registration".
 - Find the checkbox for "Unregistered users can create tickets" and uncheck it.
 - Ensure the setting reflects "Registration Required" — meaning users must register and log in before creating a ticket.
 - Scroll down and click "Save Changes".
