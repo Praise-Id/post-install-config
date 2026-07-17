@@ -62,13 +62,13 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 </p>
 
 - From the Admin Panel, look at the top navigation bar and click "Agents".
-- In the sub-menu that appears, click "Roles", click the "Add New Role" button.
+- In the sub-menu that appears, click "Roles" and click the "Add New Role" button.
 - In the "Role Name" field, type Supreme Admin (you can name this whatever you want).
 - Review the permission checkboxes on this page (organized into tabs like "Tickets," "Knowledgebase," "Miscellaneous"). For a Supreme Admin role, check all available permissions across each tab.
 - Click "Add Role" or "Save Changes" at the bottom of the page to save.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1242" height="650" alt="image" src="https://github.com/user-attachments/assets/c8cebf96-2251-4c9e-9f2d-4512a95c5e91" />
 </p>
 
 <br />
