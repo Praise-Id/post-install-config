@@ -38,10 +38,6 @@ Access the Login Pages.
 - To log in as an Admin or Agent, go to: http://localhost/osTicket/scp/login.php.
 - Enter your admin username and password (created during setup), then click Login.
 - To view the End User (customer-facing) portal, open a new tab and go to: http://localhost/osTicket.
-  
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <br />
 
@@ -55,7 +51,7 @@ Understand Agent Panel vs. Admin Panel.
 - You can switch back to the Agent Panel at any time using the corresponding link in the top navigation.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1029" alt="image" src="https://github.com/user-attachments/assets/655bdb89-fd89-4b2f-9323-6ad397362038" />
 </p>
 
 <br />
