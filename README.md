@@ -188,7 +188,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 - Click "Add Topic" to save.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="900" height="517" alt="image" src="https://github.com/user-attachments/assets/f8895644-fa47-470e-a5ab-ea56d0bc708d" />
 </p>
 
 <br />
