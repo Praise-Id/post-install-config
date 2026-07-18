@@ -154,7 +154,7 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 - Click "Add User" to save.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="577" height="588" alt="image" src="https://github.com/user-attachments/assets/5028e72f-8db6-425b-9b93-ff6b17a4b99d" />
 </p>
 
 <br />
