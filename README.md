@@ -167,11 +167,11 @@ Roles group together permissions that can be assigned to agents (e.g., what they
 - From the Admin Panel, click "Manage" in the top navigation.
 - Click "SLA Plans" in the sub-menu, click "Add New SLA Plan."
 - Fill in the required fields.
-- you may need to create your schedule first under Manage -> Schedules if it doesn't already exist
+- You may need to create your schedule first under Manage -> Schedules if it doesn't already exist
 - Click "Add SLA Plan" to save.
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="577" height="501" alt="image" src="https://github.com/user-attachments/assets/3009fd88-7aa9-47fc-b24b-87245730e6f8" />
 </p>
 
 <br />
